@@ -31,7 +31,7 @@ The process is shown below:
     cmake --build build  
     cmake -E chdir build/examples/c ./example_lib_opengjk_ce  
 ### 1.3 File location adjustment  
-Move the 'openGJK.c' file from the root directory to the 'src' directory, then open it and delete all keys named `restrict`.  
+Move the 'openGJK.c' file from the root directory to the 'src' directory, then open it and delete all keywords named `restrict`.  
 ### 1.4 File generation  
 cd to the 'examples/python' directory and run ```source build.sh```.  
 This should generate a file called `opengjkc.cpython-38-x86_64-linux-gnu.so`.  
