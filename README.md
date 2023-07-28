@@ -5,7 +5,7 @@ It is a online replanning method for multi-robot which can achieve the recursive
 
 Here we provide a python3-based program which can simulate the trasition for multi-robot systems. 
 
-## 0.General Setup
+## 0. General Setup
 
 We have tested our code with:
 `ubuntu 20.0.4`
@@ -17,7 +17,7 @@ scipy          1.6.3
 cvxopt         1.3.0
 matplotlib     3.4.3
 
-## 1.Essential file 'opengjkc.so' Setup
+## 1. Essential file 'opengjkc.so' Setup
 IMPC-OB depends on the package [openGJK](https://github.com/MattiaMontanari/openGJK#getting-started) to apply polytope-related calculation. As openGJK is wrriten in C++, a conversion from C++ to python is needed. This can be done by generating a Python-Binding file called `opengjkc.so`.
 
 PS: this file must be generated specifically for each different running environment, the one provided in IMPC-OB source code is generated based on python 3.9, thus it might not be available for importing in your environment. Be sure to manually generate it yourself!
