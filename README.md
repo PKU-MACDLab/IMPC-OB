@@ -20,7 +20,7 @@ matplotlib     3.4.3
 ## 1. Essential file 'opengjkc.so' Setup
 IMPC-OB depends on the package [openGJK](https://github.com/MattiaMontanari/openGJK#getting-started) to apply polytope-related calculation. As openGJK is wrriten in C++, a conversion from C++ to python is needed. This can be done by generating a Python-Binding file called `opengjkc.so`.
 
-PS: this file must be generated specifically for each different running environment, the one provided in IMPC-OB source code is generated based on python 3.9, thus it might not be available for importing in your environment. Be sure to manually generate it yourself!
+PS: This file must be generated specifically for each different running environment. The one provided in IMPC-OB source code is generated based on python 3.9, thus it might not be available for importing in your environment. Be sure to manually generate it yourself!
 
 The process is shown below:
 ### 1.1 Copy the source code  
