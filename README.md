@@ -12,10 +12,12 @@ We have tested our code with:
 in python3
 
 This APP need following dependencies:
+```
 numpy          1.21.2
 scipy          1.6.3
 cvxopt         1.3.0
 matplotlib     3.4.3
+```
 
 ## 1. Essential file 'opengjkc.so' generation Setup
 IMPC-OB depends on the package [openGJK](https://github.com/MattiaMontanari/openGJK#getting-started) to apply polytope-related calculation. As openGJK is written in C++, a conversion from C++ to python is needed. This can be done by generating a Python-Binding file called `opengjkc.so`.
@@ -39,5 +41,7 @@ Rename it as `opengjkc.so` and move it to the 'IMPC-OB/src/opengjk' directory to
 
 
 ## Running Program
-$ cd src
-$ python3 test.py
+```
+cd src
+python3 test.py
+```
