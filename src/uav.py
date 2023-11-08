@@ -90,9 +90,9 @@ class uav2D():
         if type == 'Obstacle-transitor' or type == 'Searcher':
 
             # get path
-            # self.path=path_plan(self.terminal_p,self.target)
+            self.path=path_plan(self.terminal_p,self.target)
             # np.savetxt("data/path"+str(self.index),self.path)
-            self.path=np.loadtxt("data/path"+str(self.index))
+            # self.path=np.loadtxt("data/path"+str(self.index))
 
 
         # a coefficient related to the objective
